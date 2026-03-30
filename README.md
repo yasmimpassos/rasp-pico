@@ -5,6 +5,7 @@ Este repositório contém o firmware desenvolvido para o **Raspberry Pi Pico W**
 ### Links Rápidos
 * **Vídeo da solução em funcionamento:** [Clique aqui para assistir](https://drive.google.com/file/d/1wd4J1N3d_a2UUsSsv1Ik4jqv5GoydYwN/view?usp=sharing)
 * **Repositório do Backend (Atividade 1):** [Acesse o repositório aqui](https://github.com/yasmimpassos/back-infra)
+* **Testes de carga:** Foram adicionados testes de carga da "primeira ponderada" (scripts em `loadtest/`).
 
 
 ## 1. Arquitetura do Sistema

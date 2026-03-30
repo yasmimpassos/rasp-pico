@@ -1,0 +1,184 @@
+{
+    "root_group": {
+        "id": "d41d8cd98f00b204e9800998ecf8427e",
+        "groups": {
+            "POST /telemetry em pico": {
+                "id": "d99c73cf082a761e9d7990b0ee9121ff",
+                "groups": {},
+                "checks": {
+                        "telemetry status 200": {
+                            "fails": 0,
+                            "name": "telemetry status 200",
+                            "path": "::POST /telemetry em pico::telemetry status 200",
+                            "id": "28ec23ebf913cde3d1665e49264038d3",
+                            "passes": 20516
+                        },
+                        "telemetry resposta de sucesso": {
+                            "name": "telemetry resposta de sucesso",
+                            "path": "::POST /telemetry em pico::telemetry resposta de sucesso",
+                            "id": "de163a666b28c02fb8c69a41bb940d96",
+                            "passes": 20516,
+                            "fails": 0
+                        }
+                    },
+                "name": "POST /telemetry em pico",
+                "path": "::POST /telemetry em pico"
+            }
+        },
+        "checks": {},
+        "name": "",
+        "path": ""
+    },
+    "metrics": {
+        "telemetry_request_duration_ms": {
+            "p(95)": 598.34997475,
+            "avg": 178.81175502383493,
+            "min": 1.047605,
+            "med": 101.1583075,
+            "max": 2198.288076,
+            "p(90)": 401.248386
+        },
+        "data_received": {
+            "rate": 83466.10626359873,
+            "count": 6678160
+        },
+        "http_reqs": {
+            "count": 20516,
+            "rate": 256.41653331216855
+        },
+        "http_req_blocked": {
+            "p(90)": 0.014984,
+            "p(95)": 0.01914425,
+            "avg": 1.0352848367128067,
+            "min": 0.000945,
+            "med": 0.0067165,
+            "max": 801.162217
+        },
+        "http_req_connecting": {
+            "avg": 0.28513305444531095,
+            "min": 0,
+            "med": 0,
+            "max": 498.25793,
+            "p(90)": 0,
+            "p(95)": 0
+        },
+        "http_req_waiting": {
+            "med": 100.5425875,
+            "max": 1495.404683,
+            "p(90)": 302.6875225,
+            "p(95)": 405.35433,
+            "avg": 148.70285909962962,
+            "min": 0.979968
+        },
+        "http_req_failed": {
+            "passes": 0,
+            "fails": 20516,
+            "thresholds": {
+                "rate<0.01": false
+            },
+            "value": 0
+        },
+        "telemetry_success_rate": {
+            "passes": 20516,
+            "fails": 0,
+            "thresholds": {
+                "rate>0.95": false
+            },
+            "value": 1
+        },
+        "http_req_receiving": {
+            "avg": 16.981814609183115,
+            "min": 0.00606,
+            "med": 0.047637,
+            "max": 1703.864872,
+            "p(90)": 0.36284700000000003,
+            "p(95)": 96.62717624999999
+        },
+        "telemetry_payload_bytes": {
+            "max": 155,
+            "p(90)": 155,
+            "p(95)": 155,
+            "avg": 150.58115617079352,
+            "min": 141,
+            "med": 150
+        },
+        "group_duration": {
+            "avg": 212.54299273040544,
+            "min": 1.300746,
+            "med": 103.2307715,
+            "max": 2199.016665,
+            "p(90)": 500.39716699999997,
+            "p(95)": 699.311047
+        },
+        "http_req_duration": {
+            "avg": 178.8117550238349,
+            "min": 1.047605,
+            "med": 101.1583075,
+            "max": 2198.288076,
+            "p(90)": 401.248386,
+            "p(95)": 598.34997475,
+            "thresholds": {
+                "p(95)<1500": false
+            }
+        },
+        "http_req_tls_handshaking": {
+            "avg": 0,
+            "min": 0,
+            "med": 0,
+            "max": 0,
+            "p(90)": 0,
+            "p(95)": 0
+        },
+        "iterations": {
+            "count": 20516,
+            "rate": 256.41653331216855
+        },
+        "data_sent": {
+            "count": 5776919,
+            "rate": 72202.06391134721
+        },
+        "vus": {
+            "max": 160,
+            "value": 2,
+            "min": 0
+        },
+        "telemetry_requests_total": {
+            "count": 20516,
+            "rate": 256.41653331216855
+        },
+        "vus_max": {
+            "max": 160,
+            "value": 160,
+            "min": 122
+        },
+        "iteration_duration": {
+            "p(95)": 902.4134225,
+            "avg": 344.06227666767626,
+            "min": 41.668528,
+            "med": 295.556313,
+            "max": 2504.884886,
+            "p(90)": 701.3220719999999
+        },
+        "http_req_duration{expected_response:true}": {
+            "avg": 178.8117550238349,
+            "min": 1.047605,
+            "med": 101.1583075,
+            "max": 2198.288076,
+            "p(90)": 401.248386,
+            "p(95)": 598.34997475
+        },
+        "checks": {
+            "passes": 41032,
+            "fails": 0,
+            "value": 1
+        },
+        "http_req_sending": {
+            "p(90)": 0.1833305,
+            "p(95)": 5.46767875,
+            "avg": 13.12708131502247,
+            "min": 0.002701,
+            "med": 0.024649499999999998,
+            "max": 1297.077164
+        }
+    }
+}
